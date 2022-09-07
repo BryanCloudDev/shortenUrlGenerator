@@ -6,18 +6,19 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .main {
   width: 100%;
+  max-width: 1000px;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
+  margin: 0 auto;
 }
 
 .title {
@@ -78,11 +79,12 @@ form input[type=submit]:hover {
 
 .response .loading-container {
   width: 20%;
-  height: auto;
+  max-width: 110px;
 }
 
 .loading-container .loading {
   width: 100%;
+  height: auto;
 }
 
 .clear-btn {
