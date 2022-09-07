@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form input[type=text] {
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 1px solid white;
+  outline: none;
+}
+
+form input[type=submit] {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+form input[type=submit]:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(57, 57, 186);
+  border: 1px solid rgb(57, 57, 186);
+}
+
+.response {
+  width: 80%;
+  height: 200px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.response a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.response .loading-container {
+  width: 20%;
+  height: auto;
+}
+
+.loading-container .loading {
+  width: 100%;
+}
+
+.clear-btn {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.clear-btn button {
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+.clear-btn button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(57, 57, 186);
+  border: 1px solid rgb(57, 57, 186);
+}
